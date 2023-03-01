@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@color/md_theme_light_background"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/oi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_margin="4dp"
+            android:src="@drawable/pallet_design"
+            android:tag="@color/"
+            android:background="@color/grey"
+            />
+
+        <ImageButton
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_margin="4dp"
+            android:src="@drawable/pallet_design"
+            android:tag="@color/grey"
+            android:background="@color/grey"
+            />
+
+        <ImageButton
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_margin="4dp"
+            android:src="@drawable/pallet_design"
+            android:tag="@color/blue"
+            android:background="@color/blue"
+            />
+
+        <ImageButton
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_margin="4dp"
+            android:src="@drawable/pallet_design"
+            android:tag="@color/orange"
+            android:background="@color/orange"
+            />
+
+        <ImageButton
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_margin="4dp"
+            android:src="@drawable/pallet_design"
+            android:tag="@color/brown"
+            android:background="@color/brown"
+            />
+
+        <ImageButton
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_margin="4dp"
+            android:src="@drawable/pallet_design"
+            android:tag="@color/green"
+            android:background="@color/green"
+            />
+
+        <ImageButton
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_margin="4dp"
+            android:src="@drawable/pallet_design"
+            android:tag="@color/red"
+            android:background="@color/red"
+            />
+    </LinearLayout>
+
+</LinearLayout>
